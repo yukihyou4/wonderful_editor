@@ -42,7 +42,6 @@ group :development, :test do
   gem "faker"
   gem "rspec-rails"
   gem "devise"
-  gem "devise_token_auth"
   gem "rack-cors"
 end
 
