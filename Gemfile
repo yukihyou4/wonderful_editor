@@ -41,6 +41,9 @@ group :development, :test do
   gem "factory_bot_rails"
   gem "faker"
   gem "rspec-rails"
+  gem "devise"
+  gem "devise_token_auth"
+  gem "rack-cors"
 end
 
 group :development do
