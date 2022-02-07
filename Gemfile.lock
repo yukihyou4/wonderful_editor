@@ -299,6 +299,7 @@ DEPENDENCIES
   rspec-rails
   rubocop-rails
   rubocop-rspec
+  ruby-graphviz
   sass-rails (>= 6)
   spring
   spring-watcher-listen (~> 2.0.0)
