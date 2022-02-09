@@ -21,7 +21,7 @@ gem "jbuilder", "~> 2.7"
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'ruby-graphviz'
+gem "ruby-graphviz"
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -34,20 +34,20 @@ gem "devise_token_auth" # 追加
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
+  gem "devise"
+  gem "factory_bot_rails"
+  gem "faker"
   gem "pry-byebug" # 追加
   gem "pry-doc" # 追加
   gem "pry-rails" # 追加
+  gem "rack-cors"
+  gem "rspec-rails"
   gem "rubocop-rails" # 追加
   gem "rubocop-rspec" # 追加
-  gem "factory_bot_rails"
-  gem "faker"
-  gem "rspec-rails"
-  gem "devise"
-  gem "rack-cors"
 end
 
 group :development do
-gem "rails-erd"
+  gem "rails-erd"
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem "listen", "~> 3.2"
   gem "web-console", ">= 3.3.0"
