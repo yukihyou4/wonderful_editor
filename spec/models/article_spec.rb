@@ -1,7 +1,6 @@
 require "rails_helper"
 
 RSpec.describe Article, type: :model do
-
   context "必要な情報が揃っている場合" do
     let(:article) { build(:article) }
 
@@ -9,7 +8,6 @@ RSpec.describe Article, type: :model do
       expect(article).to be_valid
     end
   end
-
 
   context "titleが無い場合" do
     let(:article) { build(:article, title: nil) }
