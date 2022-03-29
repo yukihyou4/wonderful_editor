@@ -24,8 +24,8 @@ module Api::V1
 
     private
 
-    def article_params
-      params.require(:article).permit(:title, :body)
-    end
+      def article_params
+        params.require(:article).permit(:title, :body)
+      end
   end
 end
