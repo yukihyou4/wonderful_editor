@@ -1,7 +1,6 @@
 require "rails_helper"
 
 RSpec.describe User, type: :model do
-  
   context "必要な情報が揃っている場合" do
     let(:user) { build(:user) }
 
