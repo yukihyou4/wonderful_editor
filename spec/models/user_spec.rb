@@ -32,7 +32,7 @@ require "rails_helper"
 
 RSpec.describe User, type: :model do
   context "必要な情報が揃っている場合" do
-    let(:user) { build(:user)}
+    let(:user) { build(:user) }
 
     it "ユーザーが登録できる" do
       expect(user).to be_valid
