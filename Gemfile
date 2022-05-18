@@ -41,7 +41,7 @@ group :development, :test do
   gem "pry-doc" # 追加
   gem "pry-rails" # 追加
   gem "rack-cors"
-  gem "rspec-rails"
+  gem 'rspec-rails'
   gem "rubocop-rails" # 追加
   gem "rubocop-rspec" # 追加
 end
