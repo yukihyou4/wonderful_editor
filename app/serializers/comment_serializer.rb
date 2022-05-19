@@ -19,8 +19,6 @@
 #  fk_rails_...  (article_id => articles.id)
 #  fk_rails_...  (user_id => users.id)
 #
-FactoryBot.define do
-  factory :comment do
-    body { "MyText" }
-  end
+class CommentSerializer < ActiveModel::Serializer
+  attributes :id, :body
 end
