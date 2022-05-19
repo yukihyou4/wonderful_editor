@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :article_likes
+  resources :comments
   resources :articles
   resources :users
   root to: "home#index"
