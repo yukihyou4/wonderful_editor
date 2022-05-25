@@ -1,5 +1,5 @@
 class ArticleLikesController < ApplicationController
-  before_action :set_article_like, only: %i[ show update destroy ]
+  before_action :set_article_like, only: %i[show update destroy]
 
   # GET /article_likes
   # GET /article_likes.json
@@ -41,6 +41,7 @@ class ArticleLikesController < ApplicationController
   end
 
   private
+
     # Use callbacks to share common setup or constraints between actions.
     def set_article_like
       @article_like = ArticleLike.find(params[:id])

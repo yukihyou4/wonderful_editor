@@ -32,4 +32,6 @@ class User < ApplicationRecord
   has_many :articles
   has_many :comments
   has_many :article_likes
+  validates :account, presence: true, uniqueness: true
+  validates :email, presence: true, uniqueness: true
 end
